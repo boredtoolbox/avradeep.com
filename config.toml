@@ -1,5 +1,5 @@
-title = "My cool new Blog"
-baseURL = "https://example.com/"
+title = "Inconsistent Rambling of a Procrastinator"
+baseURL = "https://www.avradeep.com"
 theme = "bilberry-hugo-theme"
 
 # Generate the robots.txt file for SEO
@@ -29,7 +29,7 @@ disqusShortname = ""
   # Description and meta data for the search engines
   author = "Lednerb"
   description = "Bilberry Premium Theme for Hugo."
-  keywords = "blog,personal,responsive,search,font awesome,pages,posts,multilingual,highlight.js,syntax highlighting,premium,shortcuts"
+  keywords = "blog,personal,responsive,search, security, information security, hacker, blackhat, whitehat"
 
   # How many articles should be displayed at once?
   paginate = 7
