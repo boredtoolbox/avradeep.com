@@ -1,0 +1,79 @@
+baseURL: "https://avradeep.com/"
+title: Avradeep Bhattacharya
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: Avradeep Bhattacharya
+  description: "A brief description of your site"
+  keywords: [Blog, Portfolio, Personal]
+  author: Avradeep Bhattacharya
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # auto, light, or dark
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+
+  # Home page info (shows on your landing page)
+  homeInfoParams:
+    Title: "Hi there!"
+    Content: >
+      Welcome to my blog. I write about things
+      that interest me. Feel free to look around.
+
+  # Social icons on the home page
+  socialIcons:
+    - name: github
+      url: "https://github.com/yourusername"
+    - name: twitter
+      url: "https://twitter.com/yourusername"
+    - name: linkedin
+      url: "https://linkedin.com/in/yourusername"
+    - name: email
+      url: "mailto:you@example.com"
+
+# Navigation menu (the links at the top of every page)
+menu:
+  main:
+    - identifier: blog
+      name: Blog
+      url: /blog/
+      weight: 10
+    - identifier: about
+      name: About Me
+      url: /about/
+      weight: 20
+    - identifier: links
+      name: Links
+      url: /links/
+      weight: 30
+
+# Output formats (needed for search and RSS)
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
