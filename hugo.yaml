@@ -42,12 +42,14 @@ params:
   showtoc: true
   tocopen: false
 
+  assets:
+    favicon: "/images/favicon.ico"
+
   # Home page info (shows on your landing page)
   homeInfoParams:
     Title: "Hi there!"
     Content: >
-      Welcome to my blog. I write about things
-      that interest me. Feel free to look around.
+      There are a lot of things that interest me. Mostly security and anyhting else that interests me.
 
   # Social icons on the home page
   socialIcons:
