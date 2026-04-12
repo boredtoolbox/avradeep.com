@@ -49,7 +49,7 @@ params:
   homeInfoParams:
     Title: "Hi there!"
     Content: >
-      There are a lot of things that interest me. Mostly security and anyhting else that interests me.
+      There are a lot of things that interest me, mostly security and engineering. But whatever they maybe, I write about them here.
 
   # Social icons on the home page
   socialIcons:
