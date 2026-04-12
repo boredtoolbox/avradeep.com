@@ -4,26 +4,23 @@ url: "/links/"
 summary: "links"
 hidemeta: true
 ShowBreadCrumbs: false
+showtoc: false
 ---
 
 ## Social Platforms
+<br>
 
 | Platform | Link |
 |----------|------|
-| Twitter | [@yourusername](https://twitter.com/yourusername) |
-| LinkedIn | [Your Name](https://linkedin.com/in/yourusername) |
-| GitHub | [yourusername](https://github.com/yourusername) |
-| Bluesky | [@you.bsky.social](https://bsky.app/profile/you.bsky.social) |
+| Threads | [@avradeep](https://www.threads.com/@avradeep) |
+| Twitter | [@boredtoolbox](https://x.com/BoredToolbox) |
+| LinkedIn | [Avradeep Bhattacharya](https://www.linkedin.com/in/avradeep/) |
+| IOC Exchange | [boredtoolbox](https://ioc.exchange/@boredtoolbox) |
+
+<br>
 
 ## Contact
 
 | Method | Address |
 |--------|---------|
-| Email | [you@example.com](mailto:you@example.com) |
-
-## Content Feeds
-
-| Type | Link |
-|------|------|
-| Blog | [/blog](/blog/) |
-| RSS | [RSS Feed](/index.xml) |
+| Email | [iamavradeep@gmail.com](mailto:iamavradeep@gmail.com) |

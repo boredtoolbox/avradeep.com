@@ -1,0 +1,32 @@
+{{- define "main" }}
+
+{{- partial "home_info.html" . }}
+
+{{- $pages := where site.RegularPages "Type" "in" (slice "blog") | complement (where site.RegularPages "Params.hiddenInHomeList" "==" "true") }}
+{{- $pages = $pages.ByDate.Reverse }}
+
+{{- $years := slice }}
+{{- range $pages }}
+  {{- $year := .Date.Format "2006" }}
+  {{- if not (in $years $year) }}
+    {{- $years = $years | append $year }}
+  {{- end }}
+{{- end }}
+
+<div class="blog-archive">
+  {{- range $years }}
+  {{- $year := . }}
+  {{- $yearPages := where $pages "Date.Year" (int .) }}
+  <div class="blog-year-group">
+    <span class="blog-year-label">{{ $year }}</span>
+    {{- range $yearPages }}
+    <a class="blog-entry" href="{{ .Permalink }}">
+      <span class="blog-entry-date">{{ .Date.Format "Jan 02" }}</span>
+      <span class="blog-entry-title">{{ .Title }}</span>
+    </a>
+    {{- end }}
+  </div>
+  {{- end }}
+</div>
+
+{{- end }}

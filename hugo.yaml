@@ -8,6 +8,11 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 minify:
   disableXML: true
   minifyOutput: true
@@ -47,13 +52,17 @@ params:
   # Social icons on the home page
   socialIcons:
     - name: github
-      url: "https://github.com/yourusername"
-    - name: twitter
-      url: "https://twitter.com/yourusername"
+      url: "https://github.com/Boredtoolbox"
+    - name: threads
+      url: "https://www.threads.com/@avradeep"
+    - name: x
+      url: "https://x.com/BoredToolbox"
     - name: linkedin
-      url: "https://linkedin.com/in/yourusername"
+      url: "https://www.linkedin.com/in/avradeep/"
+    - name: mastodon
+      url: "https://ioc.exchange/@boredtoolbox"
     - name: email
-      url: "mailto:you@example.com"
+      url: "mailto:iamavradeep@gmail.com"
 
 # Navigation menu (the links at the top of every page)
 menu:
