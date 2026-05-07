@@ -22,22 +22,30 @@ I use this site to share thoughts that might aid others working on similar probl
 <br>
 
 
-### Sr. Security Engineer — [Meta Platforms](https://www.metacareers.com/), Singapore
+### Lead Security Engineer — [Meta Platforms](https://www.metacareers.com/), Singapore
 `November 2020 – Present`
 
-- Designed and deployed a secure RAG pipeline for Llama3/LangChain, integrating a custom DLP framework and semantic analysis to prevent unauthorized data egress.
-- Engineered a 'self-healing' security automation platform across N AWS accounts, reducing MTTR for high-risk cloud misconfigurations (public S3, open SGs) from days to sub-second latency.
-- Served as Security Architecture lead for 11 critical Manufacturing Sites (Reality Labs) in High Threat Locations.
-- Created customized Risk Management metrics based on NIST compliance and vulnerability management for Reality Labs leadership.
+- Identified 2,400+ threats across 13,000+ servers at 17+ sites, reducing false positive rates from 15% to 9%, by designing a centralized Linux log ingestion system paired with an Agentic
+AI model for continuous threat detection, log parsing, and dynamic TTP repository updates via latest threat intel feeds.
+- Prevented 300+ data egress incidents across 5+ teams by designing and deploying a secure RAG pipeline for Llama3/LangChain with a custom DLP framework and semantic analysis.
+- Eliminated P-Level (Highest Priority) vulnerabilities, reducing MTTR from days to sub-second latency, by engineering a 'self-healing' security automation platform that remediated 35+ high-risk cloud misconfigurations (public S3/open SGs) across AWS accounts.
+- Achieved full NIST Manufacturing Security and internal compliance for 13 critical Reality Labs sites in High Threat Locations by designing the target-state AWS Cloud Solution, saving significant cost over off-the-shelf alternatives.
+- Automated SIEM/SOAR deployment across 13,000+ endpoints at 17+ sites, replacing manual processes, by standardizing deployment topology and agents using AWS, GitHub, Ansible, Wazuh, and
+Python.
+- Reduced organizational risk score from 55% to 15% by creating customized risk management metrics based on NIST compliance and vulnerability management for Reality Labs leadership.
+- Remediated 75+ audit findings aligned to NIST manufacturing security and internal compliance by conducting 6+ comprehensive security audits across the organization.
 <br>
 <br>
 
 ### Sr. Security Engineer — LinkedIn Corp., India
 `August 2015 – October 2020`
 
-- Led technical architecture integrating Big Data security systems with JIRA, achieving a 90% reduction in Security Operations case handling time.
-- Guided 7 product teams through the Secure Design Review process, influencing the security posture of high-visibility, external-facing platforms.
-- Led Security Boot Camps and Hackathons for new engineers across LinkedIn India.
+- Reduced Security Operations case handling time by 90% by leading the technical architecture for integrating Big Data security systems with JIRA, establishing a new platform
+benchmark for incident response.
+- Strengthened the security posture of high-visibility, external-facing platforms by guiding 7 product teams (5 internal, 2 external) through the Secure Design Review
+process.
+- Accelerated incident response by automating discovery of downstream services impacted during Engineering and Security Incidents, reducing MTTR across investigation workflows.
+- Trained 45+ engineers across 7+ sessions by leading Security Boot Camps and Hackathons for new joiners at LinkedIn India.
 <br>
 <br>
 

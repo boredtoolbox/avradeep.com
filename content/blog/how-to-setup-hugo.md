@@ -3,7 +3,7 @@ date: '2026-04-12T14:40:01+08:00'
 draft: false
 title: 'How to Build and Deploy a Static Blog with Hugo, GitHub, and Cloudflare Pages'
 tags: ["hugo", "cloudflare", "github", "tutorial"]
-summary: "A step-by-step guide to building a fast personal blog with the PaperMod theme, deploying it on Cloudflare Pages, and connecting your own custom domain — all for free."
+summary: "A step-by-step guide to building a fast personal blog with the PaperMod theme, deploying it on Cloudflare Pages, and connecting your own custom domain, all for free."
 showtoc: true
 ---
 
