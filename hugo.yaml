@@ -42,6 +42,8 @@ params:
   showtoc: true
   tocopen: false
 
+  mainSections: ["blog"]
+
   assets:
     favicon: "/images/favicon.ico"
 
@@ -73,6 +75,10 @@ menu:
       name: Blog
       url: /blog/
       weight: 10
+    - identifier: security-engineering
+      name: Security Engineering
+      url: /security-engineering/
+      weight: 15
     - identifier: about
       name: About Me
       url: /about/
