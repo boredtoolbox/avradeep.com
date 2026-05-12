@@ -1,4 +1,4 @@
 ---
 title: "Security Engineering"
-description: "All my security engineering posts"
+description: "Building and Testing Security Engineering Solutions and Vulnerabilities"
 ---

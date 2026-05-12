@@ -20,7 +20,7 @@ minify:
 params:
   env: production
   title: Avradeep Bhattacharya
-  description: "A brief description of your site"
+  description: "Security. Engineering. Opinions."
   keywords: [Blog, Portfolio, Personal]
   author: Avradeep Bhattacharya
   DateFormat: "January 2, 2006"

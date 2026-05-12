@@ -28,6 +28,12 @@
     <a class="blog-entry" href="{{ .Permalink }}">
       <span class="blog-entry-date">{{ .Date.Format "Jan 02" }}</span>
       <span class="blog-entry-title">{{ .Title }}</span>
+      <span class="blog-entry-reading-time">{{ .ReadingTime }} min</span>
+      {{- if .Params.tags }}
+      <span class="blog-entry-tags">
+        {{- range .Params.tags }}<span class="blog-tag">{{ . }}</span>{{ end -}}
+      </span>
+      {{- end }}
     </a>
     {{- end }}
   </div>

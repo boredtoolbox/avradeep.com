@@ -3,7 +3,7 @@ date: '2026-05-12T18:57:00+08:00'
 draft: false
 title: 'Kernel Downgrade For Research'
 showtoc: true
-tags: ["llm", "rag", "ai", "tutorial"]
+tags: ["kernel", "security", "home lab", "networking", "virtualbox"]
 ---
 
 ## TL;DR
