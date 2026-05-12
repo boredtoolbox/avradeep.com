@@ -1,3 +1,7 @@
+:root {
+    --main-width: 1000px;
+}
+
 .blog-archive {
     margin-top: 2rem;
     font-family: monospace;
