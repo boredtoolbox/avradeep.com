@@ -79,6 +79,10 @@ menu:
       name: Security Engineering
       url: /security-engineering/
       weight: 15
+    - identifier: side-projects
+      name: Side Projects
+      url: /side-projects/
+      weight: 17
     - identifier: about
       name: About Me
       url: /about/
