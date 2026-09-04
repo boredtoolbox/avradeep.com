@@ -1,7 +1,7 @@
 ---
 date: '2026-08-21T11:47:43+08:00'
 draft: false
-title: 'Building FPL Analysis: The Data Model Behind Every Decision'
+title: 'Building FPL Analysis Part 1: The Data Model Behind Every Decision'
 showtoc: true
 tags: ["python", "football", "projects"]
 ---
