@@ -6,7 +6,7 @@ tags: ["python", "football", "projects"]
 showToc: true
 ---
 
-*This is the second post in a series about a side project I am building: a self-hosted app that tells me who to play in Fantasy Premier League every week. The [first post](https://avradeep.com/side-projects/building-fpl-analysis-pt1/) was the spec: the rules, the stats, and a rough formula. This one is the algorithm as it actually exists in the code, explained from the ground up for someone who has never written a line of Python, followed by an honest list of where I think it is getting things wrong.*
+*This is the second post in a series about a side project I am building: a self-hosted app that tells me who to play in Fantasy Premier League every week. The [first post](https://avradeep.com/side-projects/building-fpl-analysis-pt1/) was the spec: the rules, the stats, and a rough formula. This one is the algorithm as it actually exists in the code, explained from the ground up.*
 
 If you skipped part one, here is all you need: in Fantasy Premier League you pick 15 real footballers with a fake budget, and they earn you points for the things they do in real matches. Goals, assists, clean sheets, bonus. My app's job is to tell me which 15 to own, which 11 to start, and who to captain.
 
