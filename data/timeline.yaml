@@ -1,0 +1,28 @@
+# Newest first. Rendered on the About page by the {{< timeline >}} shortcode.
+- company: Meta Platforms
+  location: Singapore
+  title: Security Engineer
+  date: November 2020 – Present
+  description: Trust Security for Reality Labs
+  logo: /images/logos/meta.jpg
+
+- company: LinkedIn Corp.
+  location: India
+  title: Sr. Security Engineer
+  date: August 2015 – October 2020
+  description: Incident response and Security Assurance
+  logo: /images/logos/linkedin.png
+
+- company: Zscaler
+  location: India
+  title: Cloud Operations Engineer
+  date: December 2014 – August 2015
+  description: Automation and deployment of new Zscaler Datacenters and Colos.
+  logo: /images/logos/zscaler.png
+
+- company: Texas Instruments
+  location: India
+  title: Sr. System Administrator
+  date: July 2012 – October 2014
+  description: Worked on Global Service Operations team for Storage Infrastructure at Fabs
+  logo: /images/logos/ti.png

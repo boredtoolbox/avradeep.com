@@ -1,0 +1,9 @@
+{{- /* Only load analytics on production builds (`hugo`), not on `hugo server`. */ -}}
+{{- if hugo.IsProduction }}
+<!-- Privacy-friendly analytics by Plausible -->
+<script async src="https://plausible.io/js/pa-OPZaRNlOkqk5ymzwqVyNM.js"></script>
+<script>
+  window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+  plausible.init()
+</script>
+{{- end }}

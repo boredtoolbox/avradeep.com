@@ -1,0 +1,18 @@
+<div class="projects">
+  {{- range site.Data.projects }}
+  <a class="project-item" href="{{ .link }}" target="_blank" rel="noopener noreferrer">
+    {{- with .icon }}
+    <img class="project-icon" src="{{ . | relURL }}" alt="" loading="lazy">
+    {{- end }}
+    <span class="project-body">
+      <span class="project-name">{{ .name }}</span>
+      <span class="project-description">{{ .description }}</span>
+    </span>
+    {{- with .tech }}
+    <span class="project-tech">
+      {{- range . }}<span class="project-tag">{{ . }}</span>{{ end -}}
+    </span>
+    {{- end }}
+  </a>
+  {{- end }}
+</div>

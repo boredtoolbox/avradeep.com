@@ -1,0 +1,10 @@
+<div class="links-list">
+  {{- range index site.Data.links (.Get 0) }}
+  {{- $external := not (hasPrefix .url "mailto:") }}
+  <a class="link-item" href="{{ .url }}"{{ if $external }} target="_blank" rel="noopener noreferrer me"{{ end }}>
+    <span class="link-icon">{{ partial "svg.html" (dict "name" .icon) }}</span>
+    <span class="link-platform">{{ .platform }}</span>
+    <span class="link-handle">{{ .handle }}</span>
+  </a>
+  {{- end }}
+</div>

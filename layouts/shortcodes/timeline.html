@@ -1,0 +1,21 @@
+<div class="timeline">
+  {{- range site.Data.timeline }}
+  <div class="timeline-item">
+    <span class="timeline-marker">
+      {{- with .logo }}
+      <img src="{{ . | relURL }}" alt="" loading="lazy">
+      {{- end }}
+    </span>
+    <div class="timeline-content">
+      <div class="timeline-header">
+        <span class="timeline-company">{{ .company }}{{ with .location }}<span class="timeline-location">, {{ . }}</span>{{ end }}</span>
+        <span class="timeline-date">{{ .date }}</span>
+      </div>
+      <p class="timeline-title">{{ .title }}</p>
+      {{- with .description }}
+      <p class="timeline-description">{{ . }}</p>
+      {{- end }}
+    </div>
+  </div>
+  {{- end }}
+</div>

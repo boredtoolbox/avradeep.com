@@ -8,19 +8,9 @@ showtoc: false
 ---
 
 ## Social Platforms
-<br>
 
-| Platform | Link |
-|----------|------|
-| Threads | [@avradeep](https://www.threads.com/@avradeep) |
-| Twitter | [@boredtoolbox](https://x.com/BoredToolbox) |
-| LinkedIn | [Avradeep Bhattacharya](https://www.linkedin.com/in/avradeep/) |
-| IOC Exchange | [boredtoolbox](https://ioc.exchange/@boredtoolbox) |
-
-<br>
+{{< links "social" >}}
 
 ## Contact
 
-| Method | Address |
-|--------|---------|
-| Email | [iamavradeep@gmail.com](mailto:iamavradeep@gmail.com) |
+{{< links "contact" >}}

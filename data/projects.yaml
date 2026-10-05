@@ -1,0 +1,12 @@
+# Rendered on the About page by the {{< projects >}} shortcode.
+- name: SimpleTodo
+  description: A minimalist, offline to-do app for macOS and Ubuntu that keeps your tasks in a single local file.
+  link: https://github.com/boredtoolbox/simpletodo
+  icon: /images/projects/simpletodo.jpg
+  tech: [Python, macOS, Ubuntu]
+
+- name: SimpleNotes
+  description: A minimal, private Markdown notes app for Mac where formatting renders as you type and nothing leaves your machine.
+  link: https://github.com/boredtoolbox/simplenotes
+  icon: /images/projects/simplenotes.jpg
+  tech: [Python, macOS]

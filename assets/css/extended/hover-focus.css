@@ -1,0 +1,41 @@
+/* Shared list hover effect: the hovered row grows slightly and its siblings fade.
+   Used by the post archives (home and section pages), the Links page,
+   and the About page timeline and projects. */
+.blog-entry,
+.link-item,
+.timeline-item,
+.project-item {
+    transform-origin: left center;
+    transition: transform 0.3s ease, opacity 0.3s ease, border-color 0.15s ease;
+}
+
+.blog-archive:hover .blog-entry,
+.links-list:hover .link-item,
+.timeline:hover .timeline-item,
+.projects:hover .project-item {
+    opacity: 0.5;
+}
+
+.blog-archive .blog-entry:hover,
+.links-list .link-item:hover,
+.timeline .timeline-item:hover,
+.projects .project-item:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .blog-entry,
+    .link-item,
+    .timeline-item,
+    .project-item {
+        transition: none;
+    }
+
+    .blog-archive .blog-entry:hover,
+    .links-list .link-item:hover,
+    .timeline .timeline-item:hover,
+    .projects .project-item:hover {
+        transform: none;
+    }
+}

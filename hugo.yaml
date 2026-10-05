@@ -52,6 +52,7 @@ params:
     Title: "Hi there!"
     Content: >
       There are a lot of things that interest me, mostly security and engineering. But whatever they maybe, I write about them here.
+      <p class="home-disclaimer">The views and opinions expressed on this blog are solely my own and do not reflect those of my employer. Any content I publish here is written in my personal capacity and should not be attributed to any organization I am affiliated with.</p>
 
   # Social icons on the home page
   socialIcons:

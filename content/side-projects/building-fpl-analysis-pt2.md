@@ -1,8 +1,8 @@
 ---
-title: "Building FPL Analysis Part 2: How the Algorithm Actually Thinks"
+title: "Side Projects Issue 2: Building FPL Helper - How the Algorithm Actually Thinks"
 date: 2026-09-03T10:00:00+08:00
 draft: false
-tags: ["python", "football", "projects"]
+tags: ["python", "football", "projects","fpl"]
 showToc: true
 ---
 

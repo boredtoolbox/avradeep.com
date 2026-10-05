@@ -34,7 +34,6 @@
     text-decoration: none;
     color: inherit;
     border-left: 2px solid transparent;
-    transition: border-color 0.15s ease;
 }
 
 .blog-entry:hover {
@@ -88,4 +87,11 @@
     .blog-entry-tags {
         display: none;
     }
+}
+
+.home-disclaimer {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    font-style: italic;
+    color: var(--secondary);
 }

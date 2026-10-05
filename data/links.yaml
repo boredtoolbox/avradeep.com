@@ -1,0 +1,25 @@
+# Rendered on the Links page by the {{< links "<group>" >}} shortcode.
+# icon is a PaperMod icon name (themes/PaperMod/layouts/partials/svg.html).
+social:
+  - platform: Threads
+    icon: threads
+    handle: "@avradeep"
+    url: https://www.threads.com/@avradeep
+  - platform: Twitter
+    icon: x
+    handle: "@boredtoolbox"
+    url: https://x.com/BoredToolbox
+  - platform: LinkedIn
+    icon: linkedin
+    handle: Avradeep Bhattacharya
+    url: https://www.linkedin.com/in/avradeep/
+  - platform: IOC Exchange
+    icon: mastodon
+    handle: boredtoolbox
+    url: https://ioc.exchange/@boredtoolbox
+
+contact:
+  - platform: Email
+    icon: email
+    handle: iamavradeep@gmail.com
+    url: mailto:iamavradeep@gmail.com
