@@ -4,6 +4,7 @@ draft: false
 title: 'Kernel Downgrade For Research'
 showtoc: true
 tags: ["kernel", "security", "home lab", "networking", "virtualbox"]
+aliases: ["/security-engineering/kernel-downgrade/"]
 ---
 
 ## TL;DR

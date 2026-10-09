@@ -3,10 +3,11 @@ date: '2026-10-05T22:13:56+08:00'
 draft: false
 title: 'Side Projects Issue 3: The New Mac Power Tool'
 showtoc: true
-tags: ["python", "open-source", "tools"]
+tags: ["python", "open-source", "tools", "sideprojects"]
+aliases: ["/side-projects/side-projects-issue-3/"]
 ---
 
-# Why your Mac needs [Vorssaint](https://github.com/vorssaint/vorssaint-utils): the ultimate open-source menu bar toolkit.
+## Why your Mac needs [Vorssaint](https://github.com/vorssaint/vorssaint-utils): the ultimate open-source menu bar toolkit.
 
 Have you ever looked at your Mac's menu bar and realized you are running half a dozen different micro-utility apps? One for window snapping, another for clipboard history, a third for managing per-app audio, and a system monitor just to keep an eye on your battery. Before you know it, your menu bar is a cluttered mess, and you've spent way too much money on separate licenses and subscriptions.
 

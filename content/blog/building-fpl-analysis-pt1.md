@@ -3,7 +3,8 @@ date: '2026-08-21T11:47:43+08:00'
 draft: false
 title: 'Side Projects Issue 1: Building FPL Helper -  The Data Model Behind Every Decision'
 showtoc: true
-tags: ["python", "football", "projects", "fpl"]
+tags: ["python", "football", "projects", "fpl", "sideprojects"]
+aliases: ["/side-projects/building-fpl-analysis-pt1/"]
 ---
 
 *This is the first post in a series about a side project I am building: a self-hosted app that tells me who to play in Fantasy Premier League every week. Before I write a single line of code in later posts, I want to nail down the domain model. If you get the rules and the stats wrong, no amount of clever engineering saves you. So this post is the spec. It is the thing the code has to be faithful to.*

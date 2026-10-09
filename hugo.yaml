@@ -76,14 +76,6 @@ menu:
       name: Blog
       url: /blog/
       weight: 10
-    - identifier: security-engineering
-      name: Security Engineering
-      url: /security-engineering/
-      weight: 15
-    - identifier: side-projects
-      name: Side Projects
-      url: /side-projects/
-      weight: 17
     - identifier: about
       name: About Me
       url: /about/

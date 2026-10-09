@@ -1,12 +1,13 @@
 ---
-title: "Side Projects Issue 2: Building FPL Helper - How the Algorithm Actually Thinks"
-date: 2026-09-03T10:00:00+08:00
+date: '2026-09-03T10:00:00+08:00'
 draft: false
-tags: ["python", "football", "projects","fpl"]
-showToc: true
+title: 'Side Projects Issue 2: Building FPL Helper - How the Algorithm Actually Thinks'
+showtoc: true
+tags: ["python", "football", "projects", "fpl", "sideprojects"]
+aliases: ["/side-projects/building-fpl-analysis-pt2/"]
 ---
 
-*This is the second post in a series about a side project I am building: a self-hosted app that tells me who to play in Fantasy Premier League every week. The [first post](https://avradeep.com/side-projects/building-fpl-analysis-pt1/) was the spec: the rules, the stats, and a rough formula. This one is the algorithm as it actually exists in the code, explained from the ground up.*
+*This is the second post in a series about a side project I am building: a self-hosted app that tells me who to play in Fantasy Premier League every week. The [first post](https://avradeep.com/blog/building-fpl-analysis-pt1/) was the spec: the rules, the stats, and a rough formula. This one is the algorithm as it actually exists in the code, explained from the ground up.*
 
 If you skipped part one, here is all you need: in Fantasy Premier League you pick 15 real footballers with a fake budget, and they earn you points for the things they do in real matches. Goals, assists, clean sheets, bonus. My app's job is to tell me which 15 to own, which 11 to start, and who to captain.
 
@@ -265,6 +266,6 @@ If you are building anything similar, or you think I have got point 1 wrong, rep
 
 ## References
 
-- [Building FPL Analysis Part 1: The Data Model Behind Every Decision](https://avradeep.com/side-projects/building-fpl-analysis-pt1/) (part one of this series)
+- [Building FPL Analysis Part 1: The Data Model Behind Every Decision](https://avradeep.com/blog/building-fpl-analysis-pt1/) (part one of this series)
 - [vaastav/Fantasy-Premier-League](https://github.com/vaastav/Fantasy-Premier-League) for the historical match-level data
 - [PuLP](https://coin-or.github.io/pulp/) and the CBC solver, which is the optimiser the app uses
