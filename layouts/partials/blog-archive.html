@@ -1,0 +1,72 @@
+{{- /* Year-grouped archive with client-side tag filtering. Expects a page collection as context. */ -}}
+{{- $pages := . }}
+
+{{- $years := slice }}
+{{- range $pages }}
+  {{- $year := .Date.Format "2006" }}
+  {{- if not (in $years $year) }}
+    {{- $years = $years | append $year }}
+  {{- end }}
+{{- end }}
+
+<div class="blog-archive">
+  <div class="blog-filter" hidden>
+    Tagged <button type="button" class="blog-tag active blog-filter-clear" title="Clear filter"><span class="blog-filter-name"></span> ×</button>
+  </div>
+  {{- range $years }}
+  {{- $year := . }}
+  {{- $yearPages := where $pages "Date.Year" (int .) }}
+  <div class="blog-year-group">
+    <span class="blog-year-label">{{ $year }}</span>
+    {{- range $yearPages }}
+    <div class="blog-entry" data-tags="{{ delimit (.Params.tags | default slice) "|" }}">
+      <span class="blog-entry-date">{{ .Date.Format "Jan 02" }}</span>
+      <a class="blog-entry-title" href="{{ .Permalink }}">{{ .Title }}</a>
+      <span class="blog-entry-reading-time">{{ .ReadingTime }} min</span>
+      {{- if .Params.tags }}
+      <span class="blog-entry-tags">
+        {{- range .Params.tags }}<button type="button" class="blog-tag" data-tag="{{ . }}">{{ . }}</button>{{ end -}}
+      </span>
+      {{- end }}
+    </div>
+    {{- end }}
+  </div>
+  {{- end }}
+</div>
+
+<script>
+(function () {
+  var archive = document.querySelector('.blog-archive');
+  if (!archive) return;
+  var bar = archive.querySelector('.blog-filter');
+
+  function apply(tag) {
+    archive.querySelectorAll('.blog-entry').forEach(function (entry) {
+      entry.hidden = tag !== null && entry.dataset.tags.split('|').indexOf(tag) === -1;
+    });
+    archive.querySelectorAll('.blog-year-group').forEach(function (group) {
+      group.hidden = !group.querySelector('.blog-entry:not([hidden])');
+    });
+    archive.querySelectorAll('.blog-entry .blog-tag').forEach(function (btn) {
+      btn.classList.toggle('active', btn.dataset.tag === tag);
+    });
+    bar.hidden = tag === null;
+    bar.querySelector('.blog-filter-name').textContent = tag || '';
+
+    var url = new URL(window.location);
+    if (tag === null) url.searchParams.delete('tag');
+    else url.searchParams.set('tag', tag);
+    history.replaceState(null, '', url);
+  }
+
+  var current = new URL(window.location).searchParams.get('tag');
+  if (current !== null) apply(current);
+
+  archive.addEventListener('click', function (e) {
+    var btn = e.target.closest('.blog-tag');
+    if (!btn) return;
+    current = btn.classList.contains('blog-filter-clear') || btn.dataset.tag === current ? null : btn.dataset.tag;
+    apply(current);
+  });
+})();
+</script>
